@@ -1,0 +1,22 @@
+{
+  "name": "kekos/booya-viewstate",
+  "type": "library",
+  "description": "Viewstate for Booya framework",
+  "keywords": ["viewstate", "booya", "query-string"],
+  "homepage": "https://github.com/Kekos/booya-viewstate",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoffer Lindahl",
+      "homepage": "http://kekos.se/"
+    }
+  ],
+  "require": {
+    "php": ">= 5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Booya\\ViewState\\": "src/"
+    }
+  }
+}
